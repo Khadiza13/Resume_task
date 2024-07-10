@@ -1,0 +1,176 @@
+@import url("https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Azeret Mono", monospace;
+}
+/* header style */
+.hero {
+  height: 652px;
+  background-image: url("./assets/Hero-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.hero-container {
+  width: 998px;
+  height: 582px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.hero-container img {
+  padding-top: 26px;
+  margin-bottom: 32px;
+}
+.hero-title {
+  color: rgb(13, 19, 33);
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 68px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 24px;
+}
+.hero-des {
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 32px;
+  opacity: 0.7;
+}
+.hero-container button {
+  width: 208px;
+  height: 66px;
+  padding: 21px 24px;
+  border-radius: 8px;
+  background: rgb(13, 19, 33);
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  text-align: center;
+  cursor: pointer;
+}
+
+/* main section */
+
+/* Why */
+.cause {
+  width: 1140px;
+  height: 1395px;
+  margin: 0 auto;
+  margin-top: 74px;
+  border-radius: 16px;
+  background: rgba(13, 19, 33, 0.02);
+}
+.cause-container {
+  padding: 80px 97px;
+  /* border: 2px solid red; */
+}
+.cause-text {
+  margin: 0 47px;
+  text-align: center;
+}
+.cause-text h2 {
+  color: rgb(13, 19, 33);
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 37px;
+  text-align: center;
+  margin-bottom: 24px;
+}
+.cause-text p {
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-bottom: 48px;
+  text-align: center;
+  opacity: 0.7;
+}
+.card-container {
+}
+.card1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 90px;
+  background: linear-gradient(
+    90deg,
+    rgb(255, 255, 255),
+    rgba(255, 255, 255, 0) 100%
+  );
+  border-radius: 16px;
+  margin-bottom: 32px;
+  padding: 48px;
+}
+.card2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 32px;
+  background: (270deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
+  border-radius: 16px;
+  padding: 48px;
+}
+.card3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+  background: linear-gradient(
+    90deg,
+    rgb(255, 255, 255),
+    rgba(255, 255, 255, 0) 100%
+  );
+  border-radius: 16px;
+  padding: 48px;
+}
+.card-container h2 {
+  color: rgba(13, 19, 33, 0.7);
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: left;
+  margin-bottom: 16px;
+}
+.card-container p {
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 32px;
+}
+.card-container button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 20px;
+  border: 1px solid rgb(13, 19, 33);
+  opacity: 0.7;
+  color: rgb(13, 19, 33);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  text-align: center;
+  cursor: pointer;
+}
+.card-container a {
+  text-decoration: none;
+  color: inherit;
+}
