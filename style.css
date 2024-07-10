@@ -9,6 +9,46 @@ body {
   font-family: "Azeret Mono", monospace;
 }
 /* header style */
+.navbar {
+  height: 130px;
+  padding: 50px 150px;
+}
+.nav-content {
+  width: 1140px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.nav-content p {
+  color: rgb(13, 19, 33);
+  font-size: 28px;
+  font-weight: 800;
+  line-height: 33px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.nav-content button {
+  width: 228px;
+  height: 58px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 17px 24px;
+  border: 1px solid rgb(13, 19, 33);
+  border-radius: 8px;
+  opacity: 0.8;
+  color: rgb(13, 19, 33);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.nav-content a {
+  text-decoration: none;
+  color: inherit;
+}
 .hero {
   height: 652px;
   background-image: url("./assets/Hero-bg.png");
